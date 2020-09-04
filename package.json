@@ -1,5 +1,5 @@
 {
-  "name": "@peak-ai/serverless-cloudmap-component",
+  "name": "@jedfoster/serverless-cloudmap-component",
   "main": "./serverless.js",
   "license": "Apache",
   "author": "Ewan Valentine",
