@@ -34,7 +34,8 @@ class CloudmapComponent extends Component {
 
     this.context.status('Registering instances');
     await Promise.all(resources.map(async (instance) => {
-      return Cloudmap.createInstance(instance, id);
+      const cm = await Cloudmap.createInstance(instance, id);
+      return cm;
     }));
   }
 
